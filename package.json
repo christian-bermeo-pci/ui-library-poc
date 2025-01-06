@@ -1,5 +1,5 @@
 {
-	"name": "ui-library-poc",
+	"name": "@christian-bermeo-pci/ui-library-poc",
 	"version": "0.0.1",
 	"description": "React UI Library",
 	"type": "module",
@@ -52,5 +52,8 @@
 	"files": [
 		"dist"
 	],
-	"types": "dist/index.d.ts"
+	"types": "dist/index.d.ts",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/christian-bermeo-pci"
+	}
 }
